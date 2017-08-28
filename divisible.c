@@ -1,0 +1,12 @@
+#include<stdio.h>
+main()
+{
+	int a,b;
+	printf("enter the nbrs a and b\n");
+	scanf("%d %d",&a,&b);
+	if(a%b==0)
+	printf("a is divisible by b\n");
+	else
+	printf("a is not divisible by b\n");
+	
+}
