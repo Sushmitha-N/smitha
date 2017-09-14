@@ -6,7 +6,7 @@ int readfile()
 {
 int k=0; // to hold random number
      FILE *ptr;
-     ptr=fopen("ra.txt","r+"); //file t has the random numbers
+     ptr=fopen("ra.txt","r+"); //file ra has the random numbers
      fscanf(ptr,"%d",&k); 
      return k;
     fclose(ptr);
