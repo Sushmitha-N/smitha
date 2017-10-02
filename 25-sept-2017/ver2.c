@@ -16,7 +16,7 @@ typedef struct node
     	NODE *temp;
     	int val=0;
     	head=(NODE*)malloc(sizeof(NODE));
-    	if(head!=NULL)
+    	if(head==NULL)
 			    head=temp;
     	else
     		  scanPtr->next=temp;  
